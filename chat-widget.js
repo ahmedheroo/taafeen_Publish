@@ -689,7 +689,7 @@
       'aria-label': getText('ariaOpen'),
       'aria-expanded': 'false'
     });
-    toggleEl.innerHTML = 'ط<span class="badge" id="chat-badge"></span>';
+    toggleEl.innerHTML = '🤖<span class="badge" id="chat-badge"></span>';
     toggleEl.addEventListener('click', toggleChat);
     document.body.appendChild(toggleEl);
 
