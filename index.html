@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>قافلة الطائفين | خدمات العمرة</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="قافلة الطائفين يقدم أفضل خدمات العمرة، الحجز، النقل، والإقامة في مكة والمدينة. خبرة وم�[...]">
+    <meta name="description" content="قافلة الطائفين يقدم أفضل خدمات العمرة، الحجز، النقل، والإقامة في مكة والمدينة. خبرة وم[...]">
     <meta name="keywords" content="العمرة, خدمات العمرة, حجز عمرة, نقل, إقامة, مكة, المدينة, قافلة الطائفين">
     <meta name="robots" content="index, follow">
     <meta name="author" content="قافلة الطائفين">
@@ -81,38 +81,11 @@
       /* Move the toggle button above the WhatsApp button */
 button#chat-widget-toggle {
   bottom: 104px !important; /* Adjust based on WhatsApp button height + spacing */
-  z-index: 10002 !important;
 }
 
 /* Ensure the chat panel opens above the new button position */
 div#chat-widget-panel {
   bottom: 180px !important;
-}
-
-/* Mobile-specific adjustments: ensure chat toggle sits above floating WhatsApp/phone buttons */
-@media (max-width: 600px) {
-  /* Move chat toggle above WhatsApp floating buttons */
-  #chat-widget-toggle {
-    bottom: 220px !important;
-    right: 16px !important;
-    left: auto !important;
-    z-index: 10002 !important;
-  }
-
-  /* Ensure chat panel opens above floating buttons and fits on small screens */
-  #chat-widget-panel, #chat-widget-panel.chat-rtl {
-    bottom: 260px !important;
-    right: 12px !important;
-    left: 12px !important;
-    width: calc(100vw - 24px) !important;
-    max-height: calc(100vh - 300px) !important;
-  }
-
-  /* If you have an additional floating button group centered at bottom, nudge further */
-  @media (max-width: 420px) {
-    #chat-widget-toggle { bottom: 240px !important; }
-    #chat-widget-panel, #chat-widget-panel.chat-rtl { bottom: 280px !important; }
-  }
 }
     </style>
   <script type="importmap">
