@@ -93,4 +93,11 @@
   <body class="bg-slate-50 text-slate-900">
     <app-root></app-root>
   <script src="main.js" type="module"></script></body>
+  <script src="chat-widget.js"></script>
+<script>
+ ChatWidget.init({
+  apiUrl: 'https://tafeenchatbot.runasp.net'
+});
+// Uses server default provider (OpenAI gpt-4.1-mini) which handles Arabic perfectly.
+</script>
 </html>
