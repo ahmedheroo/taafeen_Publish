@@ -78,6 +78,15 @@
 #chat-widget-panel.chat-rtl {
   bottom: 176px;
 }
+      /* Move the toggle button above the WhatsApp button */
+button#chat-widget-toggle {
+  bottom: 104px !important; /* Adjust based on WhatsApp button height + spacing */
+}
+
+/* Ensure the chat panel opens above the new button position */
+div#chat-widget-panel {
+  bottom: 180px !important;
+}
     </style>
   <script type="importmap">
 {
