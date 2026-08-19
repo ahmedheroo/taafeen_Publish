@@ -1281,7 +1281,7 @@
   function toggleChat() {
     isOpen = !isOpen;
     widgetEl.classList.toggle('chat-hidden', !isOpen);
-    toggleEl.textContent = isOpen ? '✕' : 'ط';
+    toggleEl.textContent = isOpen ? '✕' : '🤖';
     toggleEl.style.fontSize = isOpen ? '22px' : '28px';
     toggleEl.setAttribute('aria-label', isOpen ? getText('ariaClose') : getText('ariaOpen'));
     toggleEl.setAttribute('aria-expanded', isOpen);
@@ -1299,7 +1299,7 @@
     if (isOpen) {
       isOpen = false;
       widgetEl.classList.add('chat-hidden');
-      toggleEl.textContent = 'ط';
+      toggleEl.textContent = '🤖';
       toggleEl.style.fontSize = '28px';
       toggleEl.setAttribute('aria-label', getText('ariaOpen'));
       toggleEl.setAttribute('aria-expanded', 'false');
